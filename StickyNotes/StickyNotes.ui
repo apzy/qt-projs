@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>StickyNotesClass</class>
+ <widget class="QWidget" name="StickyNotesClass" >
+  <property name="objectName" >
+   <string notr="true">StickyNotesClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>StickyNotes</string>
+  </property>$centralwidget$
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="StickyNotes.qrc"/>
+ </resources>
+ <connections/>
+</UI>

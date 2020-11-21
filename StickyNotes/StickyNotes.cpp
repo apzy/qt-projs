@@ -9,14 +9,13 @@ StickyNotes::StickyNotes(QWidget* parent)
         ui.setupUi(this);
         setWindowFlags(Qt::CustomizeWindowHint);
 
-        QPushButton* close = new QPushButton(this);
+        controls.close = new QPushButton(this);
         QIcon ico("./img/close.png");
-        close->setIcon(ico);
-        close->setIconSize(QSize(12, 12));
-        close->setFlat(true);
+        controls.close->setIcon(ico);
+        controls.close->setIconSize(QSize(12, 12));
+        controls.close->setFlat(true);
 
-        connect(close, SIGNAL(clicked()), this, SLOT(close_click()));
-
+        connect(controls.close, SIGNAL(clicked()), this, SLOT(close_click()));
 }
 
 void StickyNotes::close_click()
@@ -49,4 +48,9 @@ void StickyNotes::mouseReleaseEvent(QMouseEvent* event)
         {
                 left_pressed = false;
         }
+}
+
+void StickyNotes::resizeEvent(QResizeEvent* event)
+{
+        printf("w = %d height = %d\n", this->width(), this->height());
 }

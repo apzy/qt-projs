@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomTitle", "CustomTitle\CustomTitle.vcxproj", "{3079C60F-B5C2-3172-849A-8A10F69A45DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3079C60F-B5C2-3172-849A-8A10F69A45DE}.Debug|x64.ActiveCfg = Debug|x64
+		{3079C60F-B5C2-3172-849A-8A10F69A45DE}.Debug|x64.Build.0 = Debug|x64
+		{3079C60F-B5C2-3172-849A-8A10F69A45DE}.Release|x64.ActiveCfg = Release|x64
+		{3079C60F-B5C2-3172-849A-8A10F69A45DE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D8015C7-FF9D-4EA0-804B-26B38314E22A}
+	EndGlobalSection
+EndGlobal
